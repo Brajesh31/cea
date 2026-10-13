@@ -90,3 +90,9 @@ Elimination depends on the order and values entered by the user.
 Each entry point contains its own UI and computation. There is no shared
 domain model, routing layer, common session, or API between the examples.
 Launching one script does not start the other two.
+## Duplicate source file
+
+The extensionless bpalgo file is currently byte-for-byte identical to
+bpalgo.py. Documentation and deployment commands use bpalgo.py. If the copy
+is ever removed or changed, update this repository map and any relevant
+history notes.
