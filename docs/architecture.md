@@ -73,3 +73,10 @@ The network assumes two input features and two output values. A different
 input length can fail matrix multiplication, while the target is always a
 two-value column. The current interface accepts text before checking these
 dimensions, so a validation layer is needed for helpful error handling.
+## Candidate Elimination correctness
+
+The current function does not represent or update the complete version space
+as defined by the formal algorithm. Its initialization uses the first row
+regardless of class, and its general_h structure is a simplified display.
+Treat results as illustrative and verify any correction against hand-worked
+positive, negative, and inconsistent examples.
