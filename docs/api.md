@@ -76,3 +76,8 @@ not a held-out metric or estimate of future behavior.
 There are no app-defined request paths, JSON schemas, response status codes,
 API version headers, or client SDKs in this repository. Do not build an
 integration against Streamlit's internal network traffic.
+## No authorization roles
+
+The current pages do not sign in users or assign roles. A hosted page's access
+controls are configured outside this code and should not be described as
+application-level authorization.
