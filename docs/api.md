@@ -54,3 +54,9 @@ schema, authentication and authorization, size limits, error behavior, rate
 limits, logging, retention, and data protection. Add tests and docs only when
 the implementation and operating owner are established. Do not expose the
 current experimental algorithms as validated decision services.
+## Candidate input format
+
+A safe synthetic row for the current page is Sunny, Hot, High, False, No.
+The parser specifically uses comma-space separators. Rows with missing or
+extra values are not rejected through a complete schema check before the
+update function runs.
