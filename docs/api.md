@@ -66,3 +66,8 @@ The current linear algebra assumes two input values and produces two output
 values. Numeric parsing alone does not guarantee a compatible shape. A future
 interface should validate both count and finite values before calling the
 network.
+## Baseline output interpretation
+
+id3.py calculates its majority class from the generated labels, then evaluates
+the constant prediction on those same labels. This is a demonstration result,
+not a held-out metric or estimate of future behavior.
