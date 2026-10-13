@@ -70,3 +70,9 @@ Check that Streamlit, NumPy, and pandas were installed into the interpreter
 that launches the app. Avoid mixing a global pip installation with a separate
 virtual environment. Record the interpreter and package versions when asking
 for help.
+## Candidate output differs from expectation
+
+The update function initializes from the first row even if it is negative and
+does not implement the full formal version-space update. Compare its behavior
+with the documented limitation before treating a surprising list as an
+environment problem.
