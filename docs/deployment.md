@@ -76,3 +76,9 @@ harmful or broken deployment.
 A multi-app repository still requires each hosted app to specify its intended
 script. Do not assume a deployment of CEA.py also exposes bpalgo.py or id3.py.
 Update each configured entry point deliberately if files move.
+## Dependency build failures
+
+Check that the selected dependency file is available at the repository root
+or alongside the entry point, and that all imported third-party packages are
+declared. Streamlit's official dependency guide explains how its hosting
+service discovers dependency files and why Python versions matter.
