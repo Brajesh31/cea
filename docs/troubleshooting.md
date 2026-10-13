@@ -98,3 +98,8 @@ or database layer.
 Confirm that the host's configured entry point names the intended script.
 CEA.py, bpalgo.py, and id3.py are independent apps. A deployment does not
 automatically select among them.
+## Share diagnostics safely
+
+Before attaching logs or screenshots, redact names, private paths, account
+identifiers, personal examples, cookies, tokens, and secrets. A minimal
+synthetic reproduction is usually enough to investigate a behavior.
