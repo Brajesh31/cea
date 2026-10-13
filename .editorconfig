@@ -12,3 +12,6 @@ trim_trailing_whitespace = false
 [*.{cff,toml,yml,yaml}]
 indent_style = space
 indent_size = 2
+[*.{xml,iml}]
+indent_style = space
+indent_size = 2
