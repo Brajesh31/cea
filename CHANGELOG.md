@@ -47,3 +47,9 @@ id3.py generates its own synthetic feature matrix and labels from a fixed
 random seed. The other demos accept values through Streamlit widgets. No
 application database or external service integration is present in the
 current source.
+### Input behavior notes
+
+CEA.py expects comma-space-separated values with four attributes and a final
+Yes or No label. bpalgo.py expects two numeric input values. The current code
+does not comprehensively validate either interface before algorithm
+operations.
