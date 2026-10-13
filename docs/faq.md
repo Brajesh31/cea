@@ -57,3 +57,7 @@ REST API, user sign-in, or application-level roles.
 Follow docs/installation.md and use SUPPORT.md for technical questions.
 Include a minimal synthetic reproduction and sanitized environment details.
 Use SECURITY.md for a suspected vulnerability.
+## Do I need an API key?
+
+No. The current applications do not call external APIs and read no secret
+environment variables. Do not add credentials to the sample configuration.
