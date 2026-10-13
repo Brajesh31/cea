@@ -68,3 +68,8 @@ maintainer chooses to deploy it.
 The repository adds the MIT License with Brajesh Kumar attribution. Third-party
 Python packages remain under their own license terms; the repository notice
 does not relicense those dependencies.
+### Security notes
+
+The security guide documents the absence of application authentication,
+authorization, storage, and network controls. Users should keep sensitive
+values out of demo inputs and review any network exposure themselves.
