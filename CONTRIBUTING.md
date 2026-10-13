@@ -99,3 +99,9 @@ Add a package only when it is needed by a documented feature. Update
 requirements.txt and explain the package's role. Prefer a supported version
 range with a reproducible resolution strategy; do not silently depend on a
 package installed globally on one contributor's machine.
+## Documentation changes
+
+Keep run commands consistent with the entry-point filenames and the actual
+working directory assumptions. Distinguish implemented behavior from future
+plans. When an app is renamed or its input changes, update the README table,
+installation page, FAQ, and deployment guide in the same change.
