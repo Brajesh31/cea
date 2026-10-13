@@ -58,3 +58,9 @@ If repeated training becomes a goal, make model initialization explicit,
 preserve parameters across reruns, explain the target and loss, and show how
 many updates occurred. Keep the current one-step toy behavior clearly
 distinguished from a trained predictive model.
+## Classifier naming criteria
+
+If id3.py remains a baseline, rename its page and documentation to say
+majority-class dummy classifier. If an ID3 tree is added, implement and test
+the entropy or information-gain selection rule and display the actual tree
+decision process.
