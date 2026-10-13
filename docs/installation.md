@@ -99,3 +99,8 @@ If Streamlit reports that its default port is occupied, stop the other local
 process or choose an available port using Streamlit's documented command-line
 options. Do not expose the app on a public interface just to work around a
 local port conflict.
+## Local input safety
+
+Use invented examples and numbers only. A local browser session is still
+processed by the local application process, and logs or hosting tools may
+have separate data handling. Never enter real personal or confidential data.
