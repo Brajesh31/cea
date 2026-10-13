@@ -93,3 +93,9 @@ fields and operational diagnostics.
 A concise report with affected source, impact, environment, and a synthetic
 reproduction is easier to assess. Redact usernames, local paths, IP addresses,
 private URLs, browser storage, and any values that could identify a person.
+## Coordinated disclosure
+
+Please coordinate public disclosure with the maintainer after a fix or
+mitigation has been prepared. If the issue is already public or actively
+exploited, say so in the private report and include only information needed
+for triage.
