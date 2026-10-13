@@ -186,3 +186,10 @@ The synthetic examples in id3.py are regenerated with a fixed seed each time
 the script runs. The neural-network weights in bpalgo.py use unseeded random
 values, so its values can differ on separate runs. CEA.py output depends on
 the order and contents of the entered examples.
+## Responsible interpretation
+
+Displayed accuracy and hypotheses are demonstrations of code paths, not
+evidence that these algorithms are validated for real-world decisions. The
+repository has no independent benchmark, user study, fairness assessment, or
+operational performance guarantee. Do not use the screens to rank people or
+make consequential decisions.
