@@ -99,3 +99,9 @@ Please coordinate public disclosure with the maintainer after a fix or
 mitigation has been prepared. If the issue is already public or actively
 exploited, say so in the private report and include only information needed
 for triage.
+## Security updates
+
+Security fixes should describe the affected demo, the impact, and any
+configuration action required from users. Avoid putting exploit instructions
+or personal data in release notes. Update this policy when the reporting route
+or supported release process changes.
