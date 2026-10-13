@@ -116,3 +116,9 @@ Do not add analytics, storage, upload handling, remote APIs, or credentials
 without documenting what data flows where and why. Never put real user data
 into source control. For a suspected vulnerability, follow SECURITY.md instead
 of publishing exploit details in an ordinary issue.
+## Pull request checklist
+
+Before requesting review, confirm that only intended files changed, the app
+starts with the documented command when possible, documentation matches the
+implementation, the example data is synthetic, and unverified claims are
+clearly labelled. State exactly which checks you did and did not run.
