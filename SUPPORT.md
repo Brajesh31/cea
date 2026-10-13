@@ -40,3 +40,9 @@ guaranteed compatibility matrix. The examples are educational and their
 outputs are not suitable for consequential decisions. A maintainer may ask
 for a smaller synthetic reproduction or may close a question outside the
 repository's scope.
+## Choosing the right entry point
+
+CEA.py is the weather-example hypothesis demo. bpalgo.py is the small NumPy
+sigmoid network. id3.py creates a synthetic dataset and shows a constant
+majority-class baseline. The extensionless bpalgo file duplicates bpalgo.py;
+start the .py file.
