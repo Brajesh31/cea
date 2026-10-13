@@ -75,3 +75,8 @@ Use clear language, avoid unnecessary jargon, and be patient with questions.
 When possible, describe an acronym or specialized term the first time it is
 used. These practices support contributors with different experience and
 communication needs.
+## Requests to pause
+
+A person may ask for a discussion to pause or move to a maintainer review.
+Respect that request while the issue is considered. Do not continue contacting
+someone through other channels to evade a boundary.
