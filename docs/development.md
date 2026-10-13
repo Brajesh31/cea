@@ -75,3 +75,9 @@ Parse and validate form values before passing them to algorithm code. Handle
 empty input, missing fields, invalid labels, numeric conversion errors, and
 matrix shape mismatch with user-readable messages. Avoid returning raw
 tracebacks to the browser.
+## Dependency updates
+
+Change requirements.txt when imports change. Explain why a new direct package
+is needed, review its maintenance and licensing, and record the versions used
+when troubleshooting environment-specific behavior. Avoid relying on globally
+installed packages.
