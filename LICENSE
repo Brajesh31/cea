@@ -25,3 +25,9 @@ SOFTWARE.
 The notes below explain the intended scope of this repository's MIT notice.
 They do not replace the license text above or grant rights to material owned
 by third parties.
+### Repository-owned code
+
+The MIT grant applies to code and documentation authored for this repository
+by the copyright holder, subject to the license conditions above. It does not
+transfer ownership of the project or require attribution beyond retaining the
+copyright and permission notice in copies or substantial portions.
