@@ -46,3 +46,8 @@ new data added later should carry its own source and permission information.
 Streamlit, NumPy, pandas, Python, and other tools used to run the examples are
 maintained separately and are not relicensed by this file. Their own copyright
 notices and license terms continue to apply to those packages.
+### Third-party material
+
+No third-party code or dataset rights are asserted here. Before copying
+external code, data, images, or documentation into this repository, verify
+that its license permits the intended use and preserve any required notices.
