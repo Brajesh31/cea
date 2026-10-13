@@ -64,3 +64,9 @@ versions, exact steps, expected result, observed result, and sanitized error.
 Remove personal data, local usernames, credentials, and browser tokens. For a
 suspected vulnerability, follow SECURITY.md instead of posting exploit
 details in a public issue.
+## Import error after installation
+
+Check that Streamlit, NumPy, and pandas were installed into the interpreter
+that launches the app. Avoid mixing a global pip installation with a separate
+virtual environment. Record the interpreter and package versions when asking
+for help.
