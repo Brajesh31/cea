@@ -41,3 +41,9 @@ not claim that the IDE metadata is needed to launch a demo.
 The project adds a simple requirements manifest for Streamlit, NumPy, and
 pandas. It does not claim a pinned or verified compatibility matrix; package
 versions and runtime compatibility remain an area for future work.
+### Data notes
+
+id3.py generates its own synthetic feature matrix and labels from a fixed
+random seed. The other demos accept values through Streamlit widgets. No
+application database or external service integration is present in the
+current source.
