@@ -82,3 +82,9 @@ Check that the selected dependency file is available at the repository root
 or alongside the entry point, and that all imported third-party packages are
 declared. Streamlit's official dependency guide explains how its hosting
 service discovers dependency files and why Python versions matter.
+## Match development and hosted runtimes
+
+Record the Python version used to review a release and select a compatible
+deployment runtime. The IDE's Python metadata is not a lock or guarantee.
+Pinning dependencies and checking the hosted build are future reproducibility
+work for this repository.
