@@ -58,3 +58,9 @@ CEA.py currently splits examples at comma-space and expects four attributes
 followed by Yes or No. Its update logic is incomplete, so a surprising
 hypothesis may reflect an algorithm limitation rather than an installation
 failure. Include a small, synthetic sequence and explain the expected boundary.
+## Neural-network questions
+
+bpalgo.py assumes a two-value input and two output values. Its target is fixed
+in source, and the network is initialized again on Streamlit reruns. Include
+the synthetic numeric values and identify whether the issue is parsing, shape,
+training, or prediction.
