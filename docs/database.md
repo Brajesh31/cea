@@ -56,3 +56,9 @@ statement after a future integration is added.
 id3.py creates 100 rows in memory each time its page script runs. Its fixed
 seed makes the example repeatable for a compatible NumPy implementation; it
 does not represent an observed population or real user records.
+## Widget content
+
+Values typed into CEA.py or bpalgo.py are handled by the Streamlit session
+while the page runs. Avoid entering private information even locally because
+browser state, process diagnostics, or a future host may have separate
+handling.
