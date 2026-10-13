@@ -75,3 +75,9 @@ A small test suite should cover pure computation separately from Streamlit
 rendering. Add checks for expected algorithm results and boundary conditions,
 then connect them to a documented local command and continuous integration
 only after the command is reliable.
+## Reproducibility criteria
+
+Choose and document a Python support range, constrain direct dependencies,
+and introduce a lock or equivalent resolution record if repeatable installation
+is required. Record any random seeds used by demos and distinguish seeded
+examples from stochastic model initialization.
