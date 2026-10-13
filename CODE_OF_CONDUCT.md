@@ -92,3 +92,9 @@ A report is more useful when it identifies the project space and approximate
 time, describes the conduct in the reporter's own words, and states what
 support or resolution is requested. A report does not need to prove intent or
 include extensive evidence to be considered.
+## Confidentiality limits
+
+Information shared privately will be handled with care and disclosed only as
+needed to review and address the concern. Absolute confidentiality cannot be
+promised if safety, legal obligations, or a fair review require limited
+disclosure.
