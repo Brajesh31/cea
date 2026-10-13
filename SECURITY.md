@@ -76,3 +76,9 @@ requirements.txt lists packages needed by the demos but does not currently pin
 a fully reproducible environment. Review package provenance and advisories
 before upgrading or deploying, and record versions used for any security
 investigation.
+## Network exposure
+
+A local development server is intended for a trusted local session. Binding
+the server to a public interface or deploying it to a shared host changes the
+threat model. Use platform access controls and transport security, and do not
+assume the demo itself provides authentication.
