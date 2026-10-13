@@ -82,3 +82,9 @@ A local development server is intended for a trusted local session. Binding
 the server to a public interface or deploying it to a shared host changes the
 threat model. Use platform access controls and transport security, and do not
 assume the demo itself provides authentication.
+## Data handling
+
+The application has no repository-managed database or explicit upload
+persistence. This does not guarantee that the browser, host, crash reports, or
+platform logs retain no information. Keep sensitive values out of all demo
+fields and operational diagnostics.
