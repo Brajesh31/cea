@@ -80,3 +80,9 @@ communication needs.
 A person may ask for a discussion to pause or move to a maintainer review.
 Respect that request while the issue is considered. Do not continue contacting
 someone through other channels to evade a boundary.
+## Maintainer responsibilities
+
+Project maintainers should make participation expectations visible, review
+reports impartially, avoid retaliating against reporters, and explain
+enforcement decisions when doing so does not create additional risk to an
+affected person.
