@@ -61,3 +61,8 @@ Use SECURITY.md for a suspected vulnerability.
 
 No. The current applications do not call external APIs and read no secret
 environment variables. Do not add credentials to the sample configuration.
+## Which Python version is supported?
+
+The repository does not define a verified runtime matrix or lock file. IDE
+metadata mentions Python 3.13, but that does not prove compatibility. See
+docs/installation.md for the current setup guidance.
