@@ -76,3 +76,9 @@ The update function initializes from the first row even if it is negative and
 does not implement the full formal version-space update. Compare its behavior
 with the documented limitation before treating a surprising list as an
 environment problem.
+## Numeric overflow or unusual network values
+
+The sigmoid implementation uses direct exponentiation. Very large magnitude
+inputs can produce floating-point warnings or saturated outputs. Use small
+synthetic values for the current demo; stable numeric handling would require a
+code change.
