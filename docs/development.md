@@ -87,3 +87,8 @@ Keep commands, filenames, inputs, and expected output aligned with the
 current source. Mark ideas as planned rather than implemented. Update
 architecture, API, database, installation, and troubleshooting pages when a
 change affects those areas.
+## Security review
+
+Before adding network calls, uploaded files, analytics, or storage, identify
+what data leaves the process, who can access it, how failures are handled,
+and how data is retained or removed. Update SECURITY.md and docs/database.md.
