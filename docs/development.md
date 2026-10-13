@@ -58,3 +58,9 @@ Do not add real personal information, API credentials, hidden network calls,
 or persistent data collection. Explain any new dependency in
 requirements.txt. If new configuration is needed, document variable names
 without storing real values and update .env.example and SECURITY.md.
+## Streamlit rerun behavior
+
+A button interaction reruns the script. Objects initialized at the top of a
+page are recreated unless state is deliberately preserved. Review this
+lifecycle when changing training or prediction behavior, and document what
+the user should expect after each interaction.
