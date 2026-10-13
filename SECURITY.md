@@ -65,3 +65,8 @@ a secret to source code, an example value, a screenshot, a commit message, or
 an issue. If a credential is accidentally committed, revoke or rotate it
 immediately; deleting it from the latest file does not remove it from Git
 history.
+## Input handling
+
+Browser form values are untrusted input. Validate field counts, expected class
+labels, numeric conversion, and finite values before passing data into
+algorithm operations. Avoid rendering user-controlled strings as raw HTML.
