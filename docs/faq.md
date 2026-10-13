@@ -80,3 +80,8 @@ documented launch commands. Start bpalgo.py.
 Repository-authored code is offered under the MIT License with Brajesh Kumar
 attribution. Read LICENSE for its conditions and notes about third-party
 dependencies.
+## Where can I ask for help?
+
+Open a repository issue for a technical question using the sanitized
+reproduction guidance in SUPPORT.md. For a private conduct concern, follow
+CODE_OF_CONDUCT.md.
