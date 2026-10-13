@@ -66,3 +66,8 @@ environment variables. Do not add credentials to the sample configuration.
 The repository does not define a verified runtime matrix or lock file. IDE
 metadata mentions Python 3.13, but that does not prove compatibility. See
 docs/installation.md for the current setup guidance.
+## Can I deploy the app publicly?
+
+The repository includes no deployment configuration or in-app access
+controls. Review docs/deployment.md and the hosting provider's current
+settings before sharing a URL. Do not request real personal data.
