@@ -52,3 +52,9 @@ A future correction should define the hypothesis representation, boundaries,
 and handling of inconsistent examples before implementation. Include
 hand-checked cases for the first positive example, negative examples,
 attribute mismatches, and conflicting labels.
+## Neural-network state criteria
+
+If repeated training becomes a goal, make model initialization explicit,
+preserve parameters across reruns, explain the target and loss, and show how
+many updates occurred. Keep the current one-step toy behavior clearly
+distinguished from a trained predictive model.
