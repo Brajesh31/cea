@@ -81,3 +81,8 @@ integration against Streamlit's internal network traffic.
 The current pages do not sign in users or assign roles. A hosted page's access
 controls are configured outside this code and should not be described as
 application-level authorization.
+## State boundaries
+
+Widget values and calculations belong to the active Streamlit interaction.
+The source does not create durable records or a separately deployed model
+service. Do not assume values survive a session or application restart.
