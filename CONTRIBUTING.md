@@ -81,3 +81,9 @@ reference definition being followed. Include a small synthetic example with
 expected intermediate and final values. Explain limitations that remain; a
 small demo should not be described as a fully validated implementation merely
 because one example matches.
+## Input and error handling
+
+Treat browser form values as untrusted. Check the number of fields, allowed
+class labels, numeric conversion, empty input, and non-finite values before
+performing matrix or list operations. Show users a short correction message
+instead of an uncaught exception.
