@@ -93,3 +93,8 @@ Before hosting a demo, document who can access it, how updates are reviewed,
 which logs are retained, and how incidents are reported. Avoid accepting
 sensitive input until data handling, privacy notice, and platform controls
 have been reviewed.
+## Roadmap review
+
+Revisit this plan when the project purpose or source code changes. A completed
+item should be removed or marked done only after the implementation and its
+documentation agree; an idea should not be presented as an available feature.
