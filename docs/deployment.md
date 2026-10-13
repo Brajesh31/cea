@@ -99,3 +99,8 @@ than assuming an example file is active.
 Before sharing the app, confirm the host's current access settings and decide
 whether the URL is suitable for its intended audience. The application itself
 does not authenticate users or distinguish roles.
+## Hosted data handling
+
+Review the current provider terms, logs, backups, and retention controls for
+the selected host. This repository's lack of a database does not prove that
+the hosting platform stores no request or operational data.
