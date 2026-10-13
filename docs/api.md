@@ -86,3 +86,9 @@ application-level authorization.
 Widget values and calculations belong to the active Streamlit interaction.
 The source does not create durable records or a separately deployed model
 service. Do not assume values survive a session or application restart.
+## Future interface documentation
+
+If a public interface is implemented, document example requests using
+synthetic data, all validation rules, expected errors, deprecation policy,
+and privacy implications. Keep its versioned contract separate from
+framework-specific implementation details.
