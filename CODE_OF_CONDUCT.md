@@ -59,3 +59,8 @@ a report may take time to review.
 
 For a private conduct concern, use the reporting route above. For routine
 technical support, follow SUPPORT.md instead.
+## Good-faith technical disagreement
+
+A different view about code, algorithm definitions, or project priorities is
+not misconduct by itself. Keep the discussion relevant, explain reasoning, and
+avoid claims about another contributor's character or motives.
