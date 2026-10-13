@@ -51,3 +51,8 @@ identifying data when it is unnecessary for the educational goal.
 The current source has no HTTP client, external data service, model download,
 or hosted database connector. Verify the code again before making any privacy
 statement after a future integration is added.
+## Generated baseline data
+
+id3.py creates 100 rows in memory each time its page script runs. Its fixed
+seed makes the example repeatable for a compatible NumPy implementation; it
+does not represent an observed population or real user records.
