@@ -105,3 +105,9 @@ Security fixes should describe the affected demo, the impact, and any
 configuration action required from users. Avoid putting exploit instructions
 or personal data in release notes. Update this policy when the reporting route
 or supported release process changes.
+## Scope changes
+
+Adding storage, file uploads, external requests, authentication, or hosted
+deployment features changes this project's security assumptions. Reassess
+access controls, data retention, logging, and vulnerability reporting before
+releasing such a change.
