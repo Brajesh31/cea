@@ -93,3 +93,9 @@ as a separate project improvement.
 Launch from the checkout root so the Streamlit process and requirements
 manifest refer to this project. The current apps do not load external model
 files or datasets from disk, but documented commands assume this directory.
+## Port already in use
+
+If Streamlit reports that its default port is occupied, stop the other local
+process or choose an available port using Streamlit's documented command-line
+options. Do not expose the app on a public interface just to work around a
+local port conflict.
