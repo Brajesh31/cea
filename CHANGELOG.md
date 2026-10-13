@@ -53,3 +53,8 @@ CEA.py expects comma-space-separated values with four attributes and a final
 Yes or No label. bpalgo.py expects two numeric input values. The current code
 does not comprehensively validate either interface before algorithm
 operations.
+### Evaluation notes
+
+There is no automated test suite, held-out dataset, benchmark, or continuous
+integration configuration in the initial project. The documentation avoids
+presenting classroom output as evidence of production readiness.
