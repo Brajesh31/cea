@@ -193,3 +193,9 @@ evidence that these algorithms are validated for real-world decisions. The
 repository has no independent benchmark, user study, fairness assessment, or
 operational performance guarantee. Do not use the screens to rank people or
 make consequential decisions.
+## Local versus hosted use
+
+A local Streamlit process is intended for personal learning on trusted input.
+Making the application reachable from a network changes who can access the
+browser forms and may expose the host to untrusted requests. Review the
+deployment and access-control implications in docs/deployment.md first.
