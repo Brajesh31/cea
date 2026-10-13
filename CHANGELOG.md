@@ -63,3 +63,8 @@ presenting classroom output as evidence of production readiness.
 The project supplies no container, infrastructure template, or hosted-service
 configuration. Each Streamlit entry point must be configured separately if a
 maintainer chooses to deploy it.
+### License notes
+
+The repository adds the MIT License with Brajesh Kumar attribution. Third-party
+Python packages remain under their own license terms; the repository notice
+does not relicense those dependencies.
