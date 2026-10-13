@@ -87,3 +87,9 @@ Review widget labels, keyboard navigation, color contrast, error placement,
 and output structure. Keep instructions adjacent to the controls they
 describe, and avoid requiring visual interpretation alone to understand a
 result.
+## Deployment criteria
+
+Before hosting a demo, document who can access it, how updates are reviewed,
+which logs are retained, and how incidents are reported. Avoid accepting
+sensitive input until data handling, privacy notice, and platform controls
+have been reviewed.
