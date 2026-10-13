@@ -78,3 +78,8 @@ source.
 Do not promise users that their values are never retained or are deleted on
 session close without checking browser, hosting, operational logging, and
 backup behavior. This repository does not implement a deletion workflow.
+## Governance before storage
+
+Any future persistence feature needs a documented owner, access model,
+retention schedule, deletion verification, backup expiry process, and incident
+procedure. Reassess applicable privacy obligations before enabling collection.
