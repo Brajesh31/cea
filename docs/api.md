@@ -60,3 +60,9 @@ A safe synthetic row for the current page is Sunny, Hot, High, False, No.
 The parser specifically uses comma-space separators. Rows with missing or
 extra values are not rejected through a complete schema check before the
 update function runs.
+## Neural-network input shape
+
+The current linear algebra assumes two input values and produces two output
+values. Numeric parsing alone does not guarantee a compatible shape. A future
+interface should validate both count and finite values before calling the
+network.
