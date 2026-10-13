@@ -65,3 +65,9 @@ does not verify algorithm correctness.
 Stop the Streamlit process, deactivate the environment, then remove the
 project-local .venv directory if it is no longer needed. Keep source files and
 any unrelated environments untouched.
+## Select a page
+
+CEA.py shows the weather-example hypothesis exercise. bpalgo.py shows a
+two-input, two-output network step. id3.py shows generated data and a
+majority-class baseline. The extensionless bpalgo file is a duplicate; use
+bpalgo.py as the entry point.
