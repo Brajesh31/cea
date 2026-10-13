@@ -85,3 +85,8 @@ positive, negative, and inconsistent examples.
 The synthetic data generator sets a fixed NumPy seed before generating its
 features and labels. The network uses unseeded random weights. Candidate
 Elimination depends on the order and values entered by the user.
+## Independent application boundaries
+
+Each entry point contains its own UI and computation. There is no shared
+domain model, routing layer, common session, or API between the examples.
+Launching one script does not start the other two.
