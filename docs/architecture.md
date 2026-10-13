@@ -67,3 +67,9 @@ Widget values may remain in an active session, and hosting platforms may keep
 their own operational logs or backups. Absence of a database is not a
 zero-retention guarantee. requirements.txt is not a pinned environment, and
 the IDE's Python 3.13 metadata is not a compatibility test.
+## Neural-network dimensions
+
+The network assumes two input features and two output values. A different
+input length can fail matrix multiplication, while the target is always a
+two-value column. The current interface accepts text before checking these
+dimensions, so a validation layer is needed for helpful error handling.
