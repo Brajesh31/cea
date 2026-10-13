@@ -46,3 +46,8 @@ access controls, encryption, retention, deletion, backups, incident response,
 and responsible operator. Update the architecture, security, deployment, and
 user-facing notice before collecting real information. Prefer not to persist
 identifying data when it is unnecessary for the educational goal.
+## Data-flow boundary
+
+The current source has no HTTP client, external data service, model download,
+or hosted database connector. Verify the code again before making any privacy
+statement after a future integration is added.
