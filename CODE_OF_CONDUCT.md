@@ -103,3 +103,8 @@ disclosure.
 A person affected by an enforcement decision may privately ask the maintainer
 to review it and provide relevant context. A review request does not guarantee
 that the original decision will change.
+## Updating this code
+
+This code may be clarified as the project and its participation spaces change.
+Updates should preserve the commitments to respectful participation, privacy,
+fair review, and proportionate enforcement.
