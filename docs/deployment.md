@@ -104,3 +104,9 @@ does not authenticate users or distinguish roles.
 Review the current provider terms, logs, backups, and retention controls for
 the selected host. This repository's lack of a database does not prove that
 the hosting platform stores no request or operational data.
+## Deployment smoke review
+
+After a release, confirm that the intended script starts, widgets render, and
+a harmless synthetic example follows the expected path. Check the host's
+build and runtime logs for missing packages without copying personal input
+or secret values into a public report.
