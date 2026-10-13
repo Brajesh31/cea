@@ -180,3 +180,9 @@ Enter exactly two numeric values separated by commas in the input field, such
 as 0.1, 0.2. The current matrix dimensions assume two inputs and two outputs.
 The dataset field accepts rows for display only; it does not supply training
 examples or targets to the network.
+## Repeatability
+
+The synthetic examples in id3.py are regenerated with a fixed seed each time
+the script runs. The neural-network weights in bpalgo.py use unseeded random
+values, so its values can differ on separate runs. CEA.py output depends on
+the order and contents of the entered examples.
