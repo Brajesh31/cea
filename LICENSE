@@ -36,3 +36,8 @@ copyright and permission notice in copies or substantial portions.
 The extensionless file bpalgo and the Python entry point bpalgo.py contain the
 same demonstration code in the current repository. The same repository
 copyright and MIT notice apply to both copies.
+### Generated synthetic values
+
+id3.py generates its demonstration rows at runtime from NumPy random values.
+Those generated values are not a separately curated third-party dataset. Any
+new data added later should carry its own source and permission information.
