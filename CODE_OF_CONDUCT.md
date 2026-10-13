@@ -86,3 +86,9 @@ Project maintainers should make participation expectations visible, review
 reports impartially, avoid retaliating against reporters, and explain
 enforcement decisions when doing so does not create additional risk to an
 affected person.
+## Report details
+
+A report is more useful when it identifies the project space and approximate
+time, describes the conduct in the reporter's own words, and states what
+support or resolution is requested. A report does not need to prove intent or
+include extensive evidence to be considered.
