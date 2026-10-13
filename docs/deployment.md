@@ -94,3 +94,8 @@ None of the current demos reads an API key, OAuth client, or environment
 setting. Do not create dummy credentials for deployment. If a future feature
 adds a secret, update its code to read it from the hosting secret store rather
 than assuming an example file is active.
+## Review access controls
+
+Before sharing the app, confirm the host's current access settings and decide
+whether the URL is suitable for its intended audience. The application itself
+does not authenticate users or distinguish roles.
