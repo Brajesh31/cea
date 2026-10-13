@@ -92,3 +92,9 @@ change affects those areas.
 Before adding network calls, uploaded files, analytics, or storage, identify
 what data leaves the process, who can access it, how failures are handled,
 and how data is retained or removed. Update SECURITY.md and docs/database.md.
+## Reproducible review notes
+
+In a pull request, include the operating system, Python version, direct
+package versions, command, synthetic example, observed output, and checks
+performed. Redact private paths, account details, tokens, and unrelated
+environment data.
