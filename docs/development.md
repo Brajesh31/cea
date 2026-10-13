@@ -64,3 +64,8 @@ A button interaction reruns the script. Objects initialized at the top of a
 page are recreated unless state is deliberately preserved. Review this
 lifecycle when changing training or prediction behavior, and document what
 the user should expect after each interaction.
+## Synthetic examples
+
+Prefer the smallest hand-checkable values that demonstrate one behavior.
+Keep expected outputs in the contribution description or documentation.
+Never commit real records or screenshots containing personal information.
