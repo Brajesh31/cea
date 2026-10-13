@@ -98,3 +98,8 @@ Information shared privately will be handled with care and disclosed only as
 needed to review and address the concern. Absolute confidentiality cannot be
 promised if safety, legal obligations, or a fair review require limited
 disclosure.
+## Review of decisions
+
+A person affected by an enforcement decision may privately ask the maintainer
+to review it and provide relevant context. A review request does not guarantee
+that the original decision will change.
