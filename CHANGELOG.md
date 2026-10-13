@@ -73,3 +73,8 @@ does not relicense those dependencies.
 The security guide documents the absence of application authentication,
 authorization, storage, and network controls. Users should keep sensitive
 values out of demo inputs and review any network exposure themselves.
+### Future entries
+
+When application behavior changes, add a concise entry under Unreleased and
+identify the affected demo. When a version is actually tagged, move the
+relevant entries under that real version and date.
