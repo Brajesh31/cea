@@ -3,3 +3,4 @@ numpy
 pandas
 # Direct dependencies used by the three Streamlit demonstrations.
 # CEA.py uses Streamlit.
+# bpalgo.py uses Streamlit and NumPy.
