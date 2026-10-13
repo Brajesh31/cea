@@ -73,3 +73,8 @@ Review the selected hosting provider's current logs, backups, and retention
 settings before sharing a deployment. Those systems are outside this
 repository's database layer and may behave independently of the application
 source.
+## Retention promises
+
+Do not promise users that their values are never retained or are deleted on
+session close without checking browser, hosting, operational logging, and
+backup behavior. This repository does not implement a deletion workflow.
