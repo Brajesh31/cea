@@ -151,3 +151,9 @@ Do not publish credentials, tokens, or sensitive sample data in an issue.
 
 The repository code is provided under the MIT License. See LICENSE for its
 terms and the scope notes concerning project materials.
+## Repository map
+
+CEA.py, bpalgo.py, and id3.py are separate entry points rather than modules
+combined by a package. requirements.txt records the Python packages needed
+across those demos. docs/ contains the project reference guides. The .idea
+directory contains editor metadata and is not required to run the applications.
