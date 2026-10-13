@@ -88,3 +88,8 @@ Because exact versions are not locked, pip may install different compatible
 releases over time. If installation behavior changes, report Python and
 package versions with the issue and consider adding a reviewed lock strategy
 as a separate project improvement.
+## Working directory
+
+Launch from the checkout root so the Streamlit process and requirements
+manifest refer to this project. The current apps do not load external model
+files or datasets from disk, but documented commands assume this directory.
