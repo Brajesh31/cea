@@ -206,3 +206,9 @@ versions are not locked, two installations made at different times may resolve
 to different package releases. For reproducible teaching or research, record
 the Python and package versions used for a session and consider adding a
 reviewed lock strategy.
+## Project status
+
+This repository is a compact set of demonstrations rather than an actively
+maintained ML framework. The roadmap lists bounded improvements that would
+make the examples clearer and safer. Report a mismatch between documentation
+and code through the process in SUPPORT.md.
