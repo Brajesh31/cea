@@ -46,3 +46,9 @@ presenting the demos as deployable products.
 Production hiring or other consequential decision support, collection of
 personal records, claims of clinical or financial validity, and an
 authentication or storage service are not goals of the current repository.
+## Candidate Elimination acceptance criteria
+
+A future correction should define the hypothesis representation, boundaries,
+and handling of inconsistent examples before implementation. Include
+hand-checked cases for the first positive example, negative examples,
+attribute mismatches, and conflicting labels.
