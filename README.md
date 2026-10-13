@@ -199,3 +199,10 @@ A local Streamlit process is intended for personal learning on trusted input.
 Making the application reachable from a network changes who can access the
 browser forms and may expose the host to untrusted requests. Review the
 deployment and access-control implications in docs/deployment.md first.
+## Dependencies and reproducibility
+
+Install packages from requirements.txt in an isolated environment. Because
+versions are not locked, two installations made at different times may resolve
+to different package releases. For reproducible teaching or research, record
+the Python and package versions used for a session and consider adding a
+reviewed lock strategy.
