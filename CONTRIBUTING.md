@@ -105,3 +105,8 @@ Keep run commands consistent with the entry-point filenames and the actual
 working directory assumptions. Distinguish implemented behavior from future
 plans. When an app is renamed or its input changes, update the README table,
 installation page, FAQ, and deployment guide in the same change.
+## Accessibility and usability
+
+Use clear widget labels, explain accepted input formats near the controls, and
+make errors understandable without relying on color alone. Preserve keyboard
+accessibility and avoid dense output that obscures the educational purpose.
