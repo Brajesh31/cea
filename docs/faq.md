@@ -75,3 +75,8 @@ settings before sharing a URL. Do not request real personal data.
 
 It is a byte-for-byte duplicate of bpalgo.py and is not used by the
 documented launch commands. Start bpalgo.py.
+## What is the license?
+
+Repository-authored code is offered under the MIT License with Brajesh Kumar
+attribution. Read LICENSE for its conditions and notes about third-party
+dependencies.
