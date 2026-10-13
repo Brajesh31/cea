@@ -1,0 +1,73 @@
+# Deployment
+
+## Current deployment status
+
+The repository contains no deployment manifest, container, infrastructure
+code, or hosted-service settings. The instructions below describe how a
+maintainer could deploy one Streamlit demo; they do not mean any app is
+currently hosted or production-ready.
+
+## Choose an entry point
+
+Each app is a separate script at the repository root:
+
+- CEA.py for the candidate-elimination-style exercise.
+- bpalgo.py for the toy neural network.
+- id3.py for the synthetic majority-class baseline.
+
+The extensionless bpalgo file duplicates bpalgo.py and is not the documented
+entry point. A deployment should select exactly the intended script. These
+apps share a repository but do not share a router or landing page.
+
+## Streamlit Community Cloud outline
+
+1. Keep the source and dependency declaration in the GitHub repository.
+2. Create a separate Streamlit app configuration for each desired entry
+   point, selecting the repository, branch, and script path.
+3. Ensure the configured Python environment can install all direct imports.
+4. Review access settings and the public data flow before sharing a deployed
+   URL.
+5. After deployment, verify the selected script and dependency build logs.
+
+Streamlit documents repository layout, app entry points, and dependencies in
+its official guides:
+- File organization: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/file-organization
+- Deploy an app: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy
+- App dependencies: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/app-dependencies
+
+## Dependencies and runtime
+
+The repository's requirements.txt is at the root and names the direct
+packages used by the pages. It does not pin a full environment or declare a
+tested Python version. For reproducible deployment, select and document a
+Python version and dependency constraints, then verify them locally and in
+the target host before sharing the app.
+
+## Secrets and configuration
+
+The current source reads no environment variables and requires no API keys.
+Do not add secrets to Git. If a future change introduces credentials,
+integrate a platform secret mechanism in application code, keep local secret
+files out of version control, and update .env.example and SECURITY.md.
+Streamlit's current secrets guidance is at
+https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management.
+
+## Data and access review
+
+CEA.py and bpalgo.py accept values from browser widgets. id3.py generates its
+own synthetic table. The repository defines no application database or
+external API calls, but a hosted service can have independent logs, session
+handling, and retention. Do not solicit real personal or confidential input.
+
+Before making a URL available, decide who should be able to access it and
+review the platform's current access controls. These educational examples
+have no in-app authentication or authorization and are not designed for
+high-impact decisions.
+
+## Release and rollback
+
+Deploy from a reviewed commit on the intended branch. Record which commit and
+entry point were released. To roll back, select a previously reviewed source
+revision using the hosting platform's supported process, then verify the
+running page. Keep a maintainer able to disable access while investigating a
+harmful or broken deployment.
