@@ -69,3 +69,9 @@ the user should expect after each interaction.
 Prefer the smallest hand-checkable values that demonstrate one behavior.
 Keep expected outputs in the contribution description or documentation.
 Never commit real records or screenshots containing personal information.
+## Error handling
+
+Parse and validate form values before passing them to algorithm code. Handle
+empty input, missing fields, invalid labels, numeric conversion errors, and
+matrix shape mismatch with user-readable messages. Avoid returning raw
+tracebacks to the browser.
