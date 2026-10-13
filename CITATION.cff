@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: >-
+  If you use these educational demonstrations, please cite the repository
+  and the version or commit that you consulted.
+title: CEA Learning Demos
+authors:
+  - family-names: Kumar
+    given-names: Brajesh
+type: software
+repository-code: https://github.com/Brajesh31/cea
+license: MIT
+abstract: >-
+  A small repository of independent Streamlit demonstrations for candidate
+  elimination, a toy sigmoid neural network, and a synthetic majority-class
+  baseline. The examples are educational and are not validated for
+  consequential decisions.
+keywords:
+  - educational software
