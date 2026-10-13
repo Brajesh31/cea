@@ -64,3 +64,8 @@ technical support, follow SUPPORT.md instead.
 A different view about code, algorithm definitions, or project priorities is
 not misconduct by itself. Keep the discussion relevant, explain reasoning, and
 avoid claims about another contributor's character or motives.
+## Privacy in reports
+
+Do not include another person's private contact details, private messages, or
+sensitive personal information in a public issue. If evidence is needed, share
+a minimal private summary and redact unrelated information.
