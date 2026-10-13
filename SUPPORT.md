@@ -64,3 +64,9 @@ bpalgo.py assumes a two-value input and two output values. Its target is fixed
 in source, and the network is initialized again on Streamlit reruns. Include
 the synthetic numeric values and identify whether the issue is parsing, shape,
 training, or prediction.
+## Classifier and accuracy questions
+
+id3.py does not build a decision tree. It predicts the most common class from
+the generated synthetic labels and reports accuracy on those same labels. Do
+not interpret this value as generalization performance or evidence of a
+trained ID3 model.
