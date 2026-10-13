@@ -93,3 +93,8 @@ benchmark.
 Streamlit reruns the page as controls change. Values not stored in supported
 session state may be recreated or lost. This repository has no durable session
 or database layer.
+## Deployment shows another page
+
+Confirm that the host's configured entry point names the intended script.
+CEA.py, bpalgo.py, and id3.py are independent apps. A deployment does not
+automatically select among them.
