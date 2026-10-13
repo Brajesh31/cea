@@ -81,3 +81,9 @@ Change requirements.txt when imports change. Explain why a new direct package
 is needed, review its maintenance and licensing, and record the versions used
 when troubleshooting environment-specific behavior. Avoid relying on globally
 installed packages.
+## Documentation review
+
+Keep commands, filenames, inputs, and expected output aligned with the
+current source. Mark ideas as planned rather than implemented. Update
+architecture, API, database, installation, and troubleshooting pages when a
+change affects those areas.
