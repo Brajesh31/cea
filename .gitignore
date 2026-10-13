@@ -7,3 +7,4 @@ venv/
 !.env.example
 .streamlit/secrets.toml
 .pytest_cache/
+.coverage
