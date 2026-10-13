@@ -164,3 +164,13 @@ inspect CEA.py to trace how examples modify hypotheses. Finish with bpalgo.py
 to follow the matrix operations in a forward pass and one gradient update.
 Compare each screen's claims with its implementation before drawing
 conclusions about model quality.
+## Input format for CEA.py
+
+Use one example per line, four attributes, then a class label. The current
+parser expects comma-space separators, for example:
+
+    Sunny, Hot, High, False, No
+    Overcast, Mild, High, True, Yes
+
+Use consistent field counts and labels. This interface does not validate
+malformed rows before running the update logic.
