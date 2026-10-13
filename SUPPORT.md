@@ -81,3 +81,8 @@ assuming all environments are identical.
 A good reproduction is the shortest synthetic input that triggers the
 behavior. Remove home-directory names, private repository URLs, hostnames,
 tokens, browser cookies, and unrelated stack-trace details before posting.
+## Response expectations
+
+The maintainer may request clarification, suggest a documentation pointer, or
+identify a known limitation. Responses depend on availability. Please keep
+follow-up discussion in the same issue and remain respectful.
