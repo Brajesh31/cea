@@ -36,3 +36,8 @@ an invented release date or version.
 The documentation reflects the tracked Python entry points CEA.py, bpalgo.py,
 and id3.py, plus the byte-identical extensionless copy named bpalgo. It does
 not claim that the IDE metadata is needed to launch a demo.
+### Dependency notes
+
+The project adds a simple requirements manifest for Streamlit, NumPy, and
+pandas. It does not claim a pinned or verified compatibility matrix; package
+versions and runtime compatibility remain an area for future work.
