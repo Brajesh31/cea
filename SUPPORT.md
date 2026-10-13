@@ -46,3 +46,9 @@ CEA.py is the weather-example hypothesis demo. bpalgo.py is the small NumPy
 sigmoid network. id3.py creates a synthetic dataset and shows a constant
 majority-class baseline. The extensionless bpalgo file duplicates bpalgo.py;
 start the .py file.
+## Installation questions
+
+Use a virtual environment and install dependencies from requirements.txt.
+The project does not pin a Python runtime or every transitive package version.
+Include the output of the interpreter version and package inspection when an
+installation question appears environment-specific.
