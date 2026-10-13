@@ -88,3 +88,9 @@ Record the Python version used to review a release and select a compatible
 deployment runtime. The IDE's Python metadata is not a lock or guarantee.
 Pinning dependencies and checking the hosted build are future reproducibility
 work for this repository.
+## No secret configuration is required today
+
+None of the current demos reads an API key, OAuth client, or environment
+setting. Do not create dummy credentials for deployment. If a future feature
+adds a secret, update its code to read it from the hosting secret store rather
+than assuming an example file is active.
