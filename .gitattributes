@@ -5,3 +5,4 @@
 *.txt text eol=lf
 *.xml text eol=lf
 *.iml text eol=lf
+*.ini text eol=lf
