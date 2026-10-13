@@ -101,3 +101,9 @@ history notes.
 Run one Streamlit process for the selected filename from the repository
 root. There is no common landing page or script selector. A hosted deployment
 must name the intended entry point explicitly.
+## Change criteria
+
+Before adding storage, external calls, uploads, or a shared launcher, describe
+the changed data flow, trust boundaries, error handling, and operational
+owner. Update architecture, security, privacy, and deployment documentation
+alongside the implementation.
