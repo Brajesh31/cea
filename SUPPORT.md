@@ -76,3 +76,8 @@ requirements.txt names the direct packages used by the examples. Because a
 locked environment is not included, installations at different dates can
 resolve different package versions. Report the package versions rather than
 assuming all environments are identical.
+## Safe reproduction details
+
+A good reproduction is the shortest synthetic input that triggers the
+behavior. Remove home-directory names, private repository URLs, hostnames,
+tokens, browser cookies, and unrelated stack-trace details before posting.
