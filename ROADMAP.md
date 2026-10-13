@@ -64,3 +64,8 @@ If id3.py remains a baseline, rename its page and documentation to say
 majority-class dummy classifier. If an ID3 tree is added, implement and test
 the entropy or information-gain selection rule and display the actual tree
 decision process.
+## Input validation criteria
+
+Each page should reject empty rows, wrong field counts, unknown labels,
+malformed numbers, and non-finite values before calculations. Error messages
+should identify how to correct the input without dumping submitted values.
