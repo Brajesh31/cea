@@ -71,3 +71,8 @@ entry point were released. To roll back, select a previously reviewed source
 revision using the hosting platform's supported process, then verify the
 running page. Keep a maintainer able to disable access while investigating a
 harmful or broken deployment.
+## One app per entry point
+
+A multi-app repository still requires each hosted app to specify its intended
+script. Do not assume a deployment of CEA.py also exposes bpalgo.py or id3.py.
+Update each configured entry point deliberately if files move.
