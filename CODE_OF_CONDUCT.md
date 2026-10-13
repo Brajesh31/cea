@@ -69,3 +69,9 @@ avoid claims about another contributor's character or motives.
 Do not include another person's private contact details, private messages, or
 sensitive personal information in a public issue. If evidence is needed, share
 a minimal private summary and redact unrelated information.
+## Accessibility and participation
+
+Use clear language, avoid unnecessary jargon, and be patient with questions.
+When possible, describe an acronym or specialized term the first time it is
+used. These practices support contributors with different experience and
+communication needs.
