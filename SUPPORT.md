@@ -70,3 +70,9 @@ id3.py does not build a decision tree. It predicts the most common class from
 the generated synthetic labels and reports accuracy on those same labels. Do
 not interpret this value as generalization performance or evidence of a
 trained ID3 model.
+## Dependency questions
+
+requirements.txt names the direct packages used by the examples. Because a
+locked environment is not included, installations at different dates can
+resolve different package versions. Report the package versions rather than
+assuming all environments are identical.
