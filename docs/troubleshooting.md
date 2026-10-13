@@ -88,3 +88,8 @@ The baseline generator sets a fixed NumPy seed, but changes in code or
 dependency behavior can alter generated values. The displayed score is based
 on the generated training labels and should not be compared as a model-quality
 benchmark.
+## A widget seems to clear
+
+Streamlit reruns the page as controls change. Values not stored in supported
+session state may be recreated or lost. This repository has no durable session
+or database layer.
