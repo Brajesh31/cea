@@ -68,3 +68,9 @@ There are no repository-defined automated tests at present. Do not state that
 the project test suite passed unless a suite has actually been added and run.
 For code changes, at minimum review the affected source, exercise the relevant
 demo with synthetic input, and report any checks that could not be performed.
+## Issue reports
+
+Search existing issues before opening a duplicate. A useful report names the
+entry point, gives the exact command and package versions, describes the
+synthetic input, and separates expected behavior from what appeared. Remove
+names, emails, tokens, and private content from all logs and screenshots.
