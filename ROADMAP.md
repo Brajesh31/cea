@@ -69,3 +69,9 @@ decision process.
 Each page should reject empty rows, wrong field counts, unknown labels,
 malformed numbers, and non-finite values before calculations. Error messages
 should identify how to correct the input without dumping submitted values.
+## Automated quality criteria
+
+A small test suite should cover pure computation separately from Streamlit
+rendering. Add checks for expected algorithm results and boundary conditions,
+then connect them to a documented local command and continuous integration
+only after the command is reliable.
