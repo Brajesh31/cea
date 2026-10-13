@@ -86,3 +86,9 @@ tokens, browser cookies, and unrelated stack-trace details before posting.
 The maintainer may request clarification, suggest a documentation pointer, or
 identify a known limitation. Responses depend on availability. Please keep
 follow-up discussion in the same issue and remain respectful.
+## Feature requests
+
+Explain the intended learning outcome, affected demo, desired user interaction,
+and maintenance cost. Requests for production deployment, real-data model
+training, or high-impact decision support are outside the current project's
+stated purpose.
