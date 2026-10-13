@@ -66,3 +66,9 @@ citation obligation beyond the license text.
 The examples are educational demonstrations and may be incomplete or
 incorrect. The license disclaimer above applies; users should independently
 review code and validate any result before relying on it.
+### Future additions
+
+If later commits add material under another license, dataset terms, or
+third-party notices, those terms may apply to that material separately.
+Review the relevant file and its provenance instead of assuming every future
+repository asset has identical ownership.
