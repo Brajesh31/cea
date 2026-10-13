@@ -82,3 +82,9 @@ The sigmoid implementation uses direct exponentiation. Very large magnitude
 inputs can produce floating-point warnings or saturated outputs. Use small
 synthetic values for the current demo; stable numeric handling would require a
 code change.
+## Baseline value changes
+
+The baseline generator sets a fixed NumPy seed, but changes in code or
+dependency behavior can alter generated values. The displayed score is based
+on the generated training labels and should not be compared as a model-quality
+benchmark.
