@@ -93,3 +93,9 @@ Streamlit reruns the application script after widget interactions. Keep
 transient state behavior explicit, and use session state only for values that
 need to survive a rerun. Avoid claiming that a model remains trained when its
 object is recreated during each script execution.
+## Dependency changes
+
+Add a package only when it is needed by a documented feature. Update
+requirements.txt and explain the package's role. Prefer a supported version
+range with a reproducible resolution strategy; do not silently depend on a
+package installed globally on one contributor's machine.
