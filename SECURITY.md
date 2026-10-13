@@ -58,3 +58,10 @@ production logging controls, or an application-level security boundary.
 Streamlit's local development interface is not a substitute for a reviewed
 deployment design. A user who exposes a demo to a network is responsible for
 appropriate access controls and platform configuration.
+## Credential handling
+
+The current source does not require API keys or OAuth credentials. Do not add
+a secret to source code, an example value, a screenshot, a commit message, or
+an issue. If a credential is accidentally committed, revoke or rotate it
+immediately; deleting it from the latest file does not remove it from Git
+history.
