@@ -71,3 +71,8 @@ network.
 id3.py calculates its majority class from the generated labels, then evaluates
 the constant prediction on those same labels. This is a demonstration result,
 not a held-out metric or estimate of future behavior.
+## No HTTP contract
+
+There are no app-defined request paths, JSON schemas, response status codes,
+API version headers, or client SDKs in this repository. Do not build an
+integration against Streamlit's internal network traffic.
