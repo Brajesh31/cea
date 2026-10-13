@@ -70,3 +70,9 @@ history.
 Browser form values are untrusted input. Validate field counts, expected class
 labels, numeric conversion, and finite values before passing data into
 algorithm operations. Avoid rendering user-controlled strings as raw HTML.
+## Dependency risk
+
+requirements.txt lists packages needed by the demos but does not currently pin
+a fully reproducible environment. Review package provenance and advisories
+before upgrading or deploying, and record versions used for any security
+investigation.
