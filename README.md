@@ -174,3 +174,9 @@ parser expects comma-space separators, for example:
 
 Use consistent field counts and labels. This interface does not validate
 malformed rows before running the update logic.
+## Input format for bpalgo.py
+
+Enter exactly two numeric values separated by commas in the input field, such
+as 0.1, 0.2. The current matrix dimensions assume two inputs and two outputs.
+The dataset field accepts rows for display only; it does not supply training
+examples or targets to the network.
