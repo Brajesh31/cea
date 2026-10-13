@@ -96,3 +96,8 @@ The extensionless bpalgo file is currently byte-for-byte identical to
 bpalgo.py. Documentation and deployment commands use bpalgo.py. If the copy
 is ever removed or changed, update this repository map and any relevant
 history notes.
+## Launch topology
+
+Run one Streamlit process for the selected filename from the repository
+root. There is no common landing page or script selector. A hosted deployment
+must name the intended entry point explicitly.
