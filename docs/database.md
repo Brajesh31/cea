@@ -67,3 +67,9 @@ handling.
 The neural-network object is reconstructed on rerun and no model file is
 written. The synthetic baseline calculates a class from regenerated data.
 There is no saved model lifecycle or database-backed prediction history.
+## Logs and backups
+
+Review the selected hosting provider's current logs, backups, and retention
+settings before sharing a deployment. Those systems are outside this
+repository's database layer and may behave independently of the application
+source.
