@@ -87,3 +87,9 @@ Treat browser form values as untrusted. Check the number of fields, allowed
 class labels, numeric conversion, empty input, and non-finite values before
 performing matrix or list operations. Show users a short correction message
 instead of an uncaught exception.
+## Streamlit behavior
+
+Streamlit reruns the application script after widget interactions. Keep
+transient state behavior explicit, and use session state only for values that
+need to survive a rerun. Avoid claiming that a model remains trained when its
+object is recreated during each script execution.
