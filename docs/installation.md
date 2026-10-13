@@ -77,3 +77,8 @@ If the activation script cannot run under local policy, invoke
 .venv\Scripts\python.exe -m pip install -r requirements.txt and
 .venv\Scripts\streamlit.exe run CEA.py from the repository root. Substitute
 the desired app filename. This avoids relying on shell activation.
+## Environment checks
+
+Use python --version and python -m pip --version to confirm that the shell
+uses the interpreter and package installer from the same environment. On
+Windows, py -0p can help list registered Python installations.
