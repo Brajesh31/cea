@@ -52,3 +52,9 @@ Use a virtual environment and install dependencies from requirements.txt.
 The project does not pin a Python runtime or every transitive package version.
 Include the output of the interpreter version and package inspection when an
 installation question appears environment-specific.
+## Candidate Elimination questions
+
+CEA.py currently splits examples at comma-space and expects four attributes
+followed by Yes or No. Its update logic is incomplete, so a surprising
+hypothesis may reflect an algorithm limitation rather than an installation
+failure. Include a small, synthetic sequence and explain the expected boundary.
