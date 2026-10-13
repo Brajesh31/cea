@@ -74,3 +74,10 @@ Search existing issues before opening a duplicate. A useful report names the
 entry point, gives the exact command and package versions, describes the
 synthetic input, and separates expected behavior from what appeared. Remove
 names, emails, tokens, and private content from all logs and screenshots.
+## Algorithm corrections
+
+For a mathematical or algorithmic correction, identify the invariant or
+reference definition being followed. Include a small synthetic example with
+expected intermediate and final values. Explain limitations that remain; a
+small demo should not be described as a fully validated implementation merely
+because one example matches.
