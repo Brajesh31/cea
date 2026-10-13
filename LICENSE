@@ -41,3 +41,8 @@ copyright and MIT notice apply to both copies.
 id3.py generates its demonstration rows at runtime from NumPy random values.
 Those generated values are not a separately curated third-party dataset. Any
 new data added later should carry its own source and permission information.
+### Dependencies
+
+Streamlit, NumPy, pandas, Python, and other tools used to run the examples are
+maintained separately and are not relicensed by this file. Their own copyright
+notices and license terms continue to apply to those packages.
