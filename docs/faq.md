@@ -85,3 +85,8 @@ dependencies.
 Open a repository issue for a technical question using the sanitized
 reproduction guidance in SUPPORT.md. For a private conduct concern, follow
 CODE_OF_CONDUCT.md.
+## Are automated tests available?
+
+The repository does not currently include an automated test suite or test
+command. Check CONTRIBUTING.md for the existing development workflow and be
+clear about any checks performed.
