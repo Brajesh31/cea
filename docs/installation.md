@@ -71,3 +71,9 @@ CEA.py shows the weather-example hypothesis exercise. bpalgo.py shows a
 two-input, two-output network step. id3.py shows generated data and a
 majority-class baseline. The extensionless bpalgo file is a duplicate; use
 bpalgo.py as the entry point.
+## PowerShell activation fallback
+
+If the activation script cannot run under local policy, invoke
+.venv\Scripts\python.exe -m pip install -r requirements.txt and
+.venv\Scripts\streamlit.exe run CEA.py from the repository root. Substitute
+the desired app filename. This avoids relying on shell activation.
