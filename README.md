@@ -212,3 +212,5 @@ This repository is a compact set of demonstrations rather than an actively
 maintained ML framework. The roadmap lists bounded improvements that would
 make the examples clearer and safer. Report a mismatch between documentation
 and code through the process in SUPPORT.md.
+
+Last updated: 2026-10-13 16:00 UTC
