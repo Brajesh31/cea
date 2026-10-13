@@ -58,3 +58,8 @@ operations.
 There is no automated test suite, held-out dataset, benchmark, or continuous
 integration configuration in the initial project. The documentation avoids
 presenting classroom output as evidence of production readiness.
+### Deployment notes
+
+The project supplies no container, infrastructure template, or hosted-service
+configuration. Each Streamlit entry point must be configured separately if a
+maintainer chooses to deploy it.
