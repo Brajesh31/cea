@@ -31,3 +31,8 @@ an invented release date or version.
 ### Changed
 
 - No application source behavior is changed by this documentation baseline.
+### Repository inventory
+
+The documentation reflects the tracked Python entry points CEA.py, bpalgo.py,
+and id3.py, plus the byte-identical extensionless copy named bpalgo. It does
+not claim that the IDE metadata is needed to launch a demo.
