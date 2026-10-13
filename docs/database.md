@@ -62,3 +62,8 @@ Values typed into CEA.py or bpalgo.py are handled by the Streamlit session
 while the page runs. Avoid entering private information even locally because
 browser state, process diagnostics, or a future host may have separate
 handling.
+## No model persistence
+
+The neural-network object is reconstructed on rerun and no model file is
+written. The synthetic baseline calculates a class from regenerated data.
+There is no saved model lifecycle or database-backed prediction history.
