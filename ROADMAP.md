@@ -81,3 +81,9 @@ Choose and document a Python support range, constrain direct dependencies,
 and introduce a lock or equivalent resolution record if repeatable installation
 is required. Record any random seeds used by demos and distinguish seeded
 examples from stochastic model initialization.
+## Accessibility criteria
+
+Review widget labels, keyboard navigation, color contrast, error placement,
+and output structure. Keep instructions adjacent to the controls they
+describe, and avoid requiring visual interpretation alone to understand a
+result.
