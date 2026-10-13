@@ -157,3 +157,10 @@ CEA.py, bpalgo.py, and id3.py are separate entry points rather than modules
 combined by a package. requirements.txt records the Python packages needed
 across those demos. docs/ contains the project reference guides. The .idea
 directory contains editor metadata and is not required to run the applications.
+## Suggested learning order
+
+Start with id3.py to see a deterministic dataset and a simple baseline. Then
+inspect CEA.py to trace how examples modify hypotheses. Finish with bpalgo.py
+to follow the matrix operations in a forward pass and one gradient update.
+Compare each screen's claims with its implementation before drawing
+conclusions about model quality.
