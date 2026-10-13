@@ -17,3 +17,5 @@ indent_style = space
 indent_size = 2
 [requirements.txt]
 charset = utf-8
+[.gitignore]
+charset = utf-8
