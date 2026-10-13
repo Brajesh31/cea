@@ -71,3 +71,7 @@ docs/installation.md for the current setup guidance.
 The repository includes no deployment configuration or in-app access
 controls. Review docs/deployment.md and the hosting provider's current
 settings before sharing a URL. Do not request real personal data.
+## Is the extensionless bpalgo file required?
+
+It is a byte-for-byte duplicate of bpalgo.py and is not used by the
+documented launch commands. Start bpalgo.py.
