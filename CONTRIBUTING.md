@@ -110,3 +110,9 @@ installation page, FAQ, and deployment guide in the same change.
 Use clear widget labels, explain accepted input formats near the controls, and
 make errors understandable without relying on color alone. Preserve keyboard
 accessibility and avoid dense output that obscures the educational purpose.
+## Privacy and security review
+
+Do not add analytics, storage, upload handling, remote APIs, or credentials
+without documenting what data flows where and why. Never put real user data
+into source control. For a suspected vulnerability, follow SECURITY.md instead
+of publishing exploit details in an ordinary issue.
