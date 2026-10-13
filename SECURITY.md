@@ -88,3 +88,8 @@ The application has no repository-managed database or explicit upload
 persistence. This does not guarantee that the browser, host, crash reports, or
 platform logs retain no information. Keep sensitive values out of all demo
 fields and operational diagnostics.
+## Report quality
+
+A concise report with affected source, impact, environment, and a synthetic
+reproduction is easier to assess. Redact usernames, local paths, IP addresses,
+private URLs, browser storage, and any values that could identify a person.
