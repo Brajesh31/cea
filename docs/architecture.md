@@ -80,3 +80,8 @@ as defined by the formal algorithm. Its initialization uses the first row
 regardless of class, and its general_h structure is a simplified display.
 Treat results as illustrative and verify any correction against hand-worked
 positive, negative, and inconsistent examples.
+## Reproducibility
+
+The synthetic data generator sets a fixed NumPy seed before generating its
+features and labels. The network uses unseeded random weights. Candidate
+Elimination depends on the order and values entered by the user.
