@@ -82,3 +82,9 @@ the desired app filename. This avoids relying on shell activation.
 Use python --version and python -m pip --version to confirm that the shell
 uses the interpreter and package installer from the same environment. On
 Windows, py -0p can help list registered Python installations.
+## Dependency resolution
+
+Because exact versions are not locked, pip may install different compatible
+releases over time. If installation behavior changes, report Python and
+package versions with the issue and consider adding a reviewed lock strategy
+as a separate project improvement.
