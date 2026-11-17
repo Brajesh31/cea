@@ -102,3 +102,21 @@ Start at [docs/README.md](docs/README.md) for application behavior, algorithm no
 See [LICENSE](LICENSE) for repository license terms. Third-party packages and media retain their respective licenses.
 
 Last updated: 2026-11-17 10:11 UTC
+
+## 📚 Documentation and reusable project resources
+
+The documentation hub is [docs/README.md](docs/README.md). It includes project architecture, input contracts, algorithm-specific correctness notes, testing, security, privacy, deployment and operational guidance.
+
+Key sections:
+- [Candidate Elimination analysis](docs/algorithms/CANDIDATE_ELIMINATION.md)
+- [Backpropagation analysis](docs/algorithms/BACKPROPAGATION.md)
+- [ID3 and baseline explanation](docs/algorithms/ID3_AND_BASELINES.md)
+- [Input formats](docs/INPUT_FORMATS.md)
+- [Testing strategy](docs/testing/TESTING_STRATEGY.md)
+- [Threat model](docs/security/THREAT_MODEL.md)
+- [Reusable templates](docs/templates/README.md)
+- [Mermaid diagrams](docs/diagrams/README.md)
+
+## ⚠️ Verification status
+
+A small pytest suite and GitHub Actions workflow have been added. Check the Actions page for the current result on the latest commit. Automated tests cover selected behavior only and do not prove full Candidate Elimination correctness, a complete backpropagation derivation, or ID3 tree implementation.
