@@ -1,0 +1,32 @@
+name: "💡 Feature request"
+description: Suggest an improvement to a learning demo
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Learning problem
+      description: What problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: correctness
+    attributes:
+      label: Algorithm reference or correctness requirement
+      description: Link a formal definition if the change affects an algorithm.
+    validations:
+      required: false
+  - type: textarea
+    id: tests
+    attributes:
+      label: Example and acceptance criteria
+      description: Use synthetic data only.
+    validations:
+      required: true
