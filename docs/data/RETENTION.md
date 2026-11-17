@@ -1,7 +1,5 @@
-# 🧹 Retention and Deletion Considerations
+# 🧹 Retention and Deletion
 
-The application code does not implement an account store or durable data deletion flow. This does not mean a hosting provider retains nothing.
+The application does not implement durable account storage or data deletion workflows. This does not imply that hosting providers retain no operational data.
 
-Before deploying, review the provider's current session handling, telemetry, logs, backups, support access and retention controls. Document a retention schedule for any new data collection. Define deletion verification across primary storage, replicas, logs and backup expiry.
-
-Do not make absolute privacy or deletion promises without evidence from the full hosting environment.
+Before deployment, review provider session handling, telemetry, logs, backups, support access and retention controls. If persistence is introduced, define a schedule and verify deletion across primary storage, replicas, logs and backup expiry. Do not promise zero retention without evidence.
