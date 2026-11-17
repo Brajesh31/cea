@@ -1,0 +1,20 @@
+title: "💡 Learning idea: "
+body:
+  - type: textarea
+    attributes:
+      label: Learning goal
+      description: What concept should be explored?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Proposed demonstration
+      description: Describe inputs, outputs and intended learning outcome.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Algorithm references and limitations
+      description: Include formal references where applicable.
+    validations:
+      required: false
