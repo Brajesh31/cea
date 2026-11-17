@@ -8,3 +8,11 @@ venv/
 .streamlit/secrets.toml
 .pytest_cache/
 .coverage
+
+# Python test, notebook and tooling caches
+.ipynb_checkpoints/
+.ruff_cache/
+.mypy_cache/
+.tox/
+htmlcov/
+coverage.xml

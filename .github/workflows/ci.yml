@@ -20,12 +20,13 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-          cache-dependency-path: requirements.txt
-      - name: Install dependencies
+          cache-dependency-path: |
+            requirements.txt
+            requirements-dev.txt
+      - name: Install development dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
-          python -m pip install pytest
+          python -m pip install -r requirements-dev.txt
       - name: Compile application scripts
         run: python -m compileall -q CEA.py bpalgo.py id3.py
       - name: Run tests

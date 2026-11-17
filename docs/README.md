@@ -1,56 +1,82 @@
 # 📚 Documentation Hub
 
-Reference material for the three independent Python/Streamlit learning demonstrations.
+Reference material for three independent Python/Streamlit learning demonstrations. These are educational demos, not validated ML systems.
 
-> These are educational demos, not validated ML systems. This documentation distinguishes inspected implementation from proposed future improvements.
-
-## Getting started
+## 🚀 Getting started
 - [Installation](installation.md)
 - [User guide](USER_GUIDE.md)
 - [Input formats](INPUT_FORMATS.md)
 - [Development workflow](development.md)
 - [Architecture](architecture.md)
 - [Project structure](PROJECT_STRUCTURE.md)
+- [Streamlit runtime](STREAMLIT_GUIDE.md)
+- [Python style guide](PYTHON_STYLE_GUIDE.md)
+- [Configuration](CONFIGURATION.md)
+- [Dependencies](DEPENDENCIES.md)
+- [Compatibility](COMPATIBILITY.md)
 
-## Algorithms
+## 🧠 Algorithms and learning
 - [Candidate Elimination](algorithms/CANDIDATE_ELIMINATION.md)
 - [Backpropagation](algorithms/BACKPROPAGATION.md)
 - [ID3 and majority baseline](algorithms/ID3_AND_BASELINES.md)
 - [Correctness review](algorithms/CORRECTNESS_REVIEW.md)
 - [Mathematical notation](algorithms/MATHEMATICAL_NOTATION.md)
+- [Algorithm comparison](ALGORITHM_COMPARISON.md)
+- [Learning path](LEARNING_PATH.md)
+- [Educator guide](EDUCATOR_GUIDE.md)
+- [Glossary](GLOSSARY.md)
 
-## Engineering and quality
+## 📊 Data, models and reproducibility
+- [Dataset card](DATASET_CARD.md)
+- [Model/demo card](MODEL_CARD.md)
+- [Data model](data/DATA_MODEL.md)
+- [Retention](data/RETENTION.md)
+- [Experiment protocol](EXPERIMENTS.md)
+- [Reproducibility](REPRODUCIBILITY.md)
+- [Benchmarks](BENCHMARKS.md)
+- [Example fixtures](examples/README.md)
+- [Optional notebooks](../notebooks/README.md)
+
+## ⚙️ Testing and engineering
 - [Testing strategy](testing/TESTING_STRATEGY.md)
-- [Test cases](testing/TEST_CASES.md)
+- [Test catalogue](testing/TEST_CASES.md)
 - [Quality gates](testing/QUALITY_GATES.md)
 - [CI guide](testing/CI.md)
-- [Python style guide](PYTHON_STYLE_GUIDE.md)
-- [Dependencies](DEPENDENCIES.md)
-- [Configuration](CONFIGURATION.md)
-- [Compatibility](COMPATIBILITY.md)
+- [Error handling](ERROR_HANDLING.md)
+- [Accessibility](ACCESSIBILITY.md)
+- [Maintenance](MAINTENANCE.md)
+- [Governance](GOVERNANCE.md)
+- [Decision log](DECISION_LOG.md)
+- [Support matrix](SUPPORT_MATRIX.md)
+- [Versioning](VERSIONING.md)
+- [Content and asset licensing](CONTENT_LICENSE.md)
 
-## Safety and privacy
+## 🔐 Security and responsible use
 - [Threat model](security/THREAT_MODEL.md)
 - [Security checklist](security/SECURITY_CHECKLIST.md)
 - [Privacy](security/PRIVACY.md)
 - [Responsible use](RESPONSIBLE_USE.md)
-- [Data model](data/DATA_MODEL.md)
-- [Retention](data/RETENTION.md)
+- [Risk register](RISK_REGISTER.md)
 
-## Operations
+## 🚀 Operations
 - [Deployment](deployment.md)
 - [Operations](operations/OPERATIONS.md)
 - [Monitoring limitations](operations/MONITORING.md)
 - [Incident response](operations/INCIDENT_RESPONSE.md)
 - [Backup and recovery](operations/BACKUP_RECOVERY.md)
 - [Release process](RELEASE_PROCESS.md)
+- [Release checklist](RELEASE_CHECKLIST.md)
 
-## Diagrams and templates
+## 🗺️ Diagrams and visual assets
 - [Diagram index](diagrams/README.md)
-- [Template index](templates/README.md)
+- [Asset index](assets/README.md)
+- [Application interface reference](api/README.md)
 
-## Existing reference material
-- [Streamlit interaction surface](api.md)
+## 🧰 Reusable templates
+See [templates/README.md](templates/README.md) for product, algorithm, experiment, testing, code review, release, deployment, security, privacy, accessibility and incident templates.
+
+## Existing reference guides
+- [Architecture](architecture.md)
 - [Persistence and data handling](database.md)
 - [FAQ](faq.md)
 - [Troubleshooting](troubleshooting.md)

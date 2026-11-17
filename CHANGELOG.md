@@ -78,3 +78,13 @@ values out of demo inputs and review any network exposure themselves.
 When application behavior changes, add a concise entry under Unreleased and
 identify the affected demo. When a version is actually tagged, move the
 relevant entries under that real version and date.
+
+### Documentation and quality expansion
+
+- Added a documentation hub and project-specific guidance for algorithms, Streamlit behavior, input formats, reproducibility, dataset/model cards, experiments, accessibility, governance, risks, releases and operations.
+- Added synthetic CSV fixtures and an optional Jupyter walkthrough.
+- Added reusable templates for algorithm/model/dataset cards, experiments, notebooks, benchmarks, dependency updates, documentation changes, release, security, privacy and incidents.
+- Added SVG visual assets and expanded Mermaid diagrams for the runtime, data flow, network shapes and majority-baseline evaluation.
+- Added pytest characterization coverage and a dedicated development dependency manifest.
+- Added issue forms, pull request guidance, CodeQL, Dependabot and Python CI.
+- Clarified the existing README to match the three independent Streamlit entry points and current algorithm limitations.
