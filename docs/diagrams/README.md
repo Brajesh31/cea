@@ -9,4 +9,4 @@
 - [Majority-baseline evaluation](BASELINE_EVALUATION.md)
 - [Deployment topology](DEPLOYMENT_TOPOLOGY.md)
 
-See [SVG assets](../assets/README.md). Diagrams are teaching aids, not proofs of correctness.
+SVG artwork is indexed in [docs/assets](../assets/README.md). Diagrams are explanatory aids and do not certify algorithm correctness.
