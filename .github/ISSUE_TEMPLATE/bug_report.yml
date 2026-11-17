@@ -1,0 +1,44 @@
+name: "🐛 Bug report"
+description: Report a reproducible problem in one learning demo
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Use synthetic inputs only. Never include private records, credentials or browser tokens."
+  - type: dropdown
+    id: app
+    attributes:
+      label: Affected app
+      options:
+        - CEA.py
+        - bpalgo.py
+        - id3.py
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include minimal synthetic input.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and sanitized error
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Python and package versions
+    validations:
+      required: false
