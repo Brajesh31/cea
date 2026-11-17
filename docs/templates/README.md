@@ -29,4 +29,3 @@ Use templates for consistent work. Replace placeholders, remove irrelevant secti
 - [Privacy review](privacy-review.md)
 - [Accessibility review](accessibility-review.md)
 - [Support response](support-response.md)
-- [ADR](architecture-decision-record.md)
