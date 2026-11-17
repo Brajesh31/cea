@@ -1,12 +1,8 @@
 # 🖼️ Documentation Assets
 
-Original SVG diagrams for the repository are stored here. They are explanatory illustrations, not screenshots of a running application.
+Original SVG diagrams, not screenshots of a running app.
 
-| Asset | Description |
-|---|---|
-| architecture-overview.svg | Three independent Streamlit entry points |
-| candidate-elimination-concept.svg | Conceptual specific/general boundaries |
-| neural-network-shapes.svg | Current 2-input/2-output matrix dimensions |
-| majority-baseline-pipeline.svg | Actual majority-class baseline flow |
+- architecture-overview.svg: three independent Streamlit entry points.
+- candidate-elimination-concept.svg: conceptual specific/general boundaries.
 
-Keep title/description metadata and add meaningful alt text when embedding assets. Do not use unlicensed images or real user data.
+Keep accessible title/description metadata and meaningful alt text. Use original or licensed media only. Never include user data.
