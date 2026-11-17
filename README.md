@@ -57,11 +57,15 @@ Streamlit reruns the script and the network is constructed again, so learned par
 
 Despite the filename, it does **not** build an ID3 decision tree. Its displayed accuracy is calculated against the same labels used to select the majority class, so it is an in-sample baseline, not a generalization estimate.
 
-## 🗺️ Architecture
+## 🗺️ Architecture and diagrams
 
 ![Architecture overview](docs/assets/architecture-overview.svg)
 
-Additional diagrams explain [Candidate Elimination boundaries](docs/diagrams/CANDIDATE_ELIMINATION_BOUNDARIES.md), [network dimensions](docs/diagrams/NEURAL_NETWORK_SHAPES.md), [baseline evaluation](docs/diagrams/BASELINE_EVALUATION.md), [runtime sequence](docs/diagrams/RUNTIME_SEQUENCE.md), [data flow](docs/diagrams/DATA_FLOW.md) and [deployment topology](docs/diagrams/DEPLOYMENT_TOPOLOGY.md).
+- [Candidate Elimination concept](docs/assets/candidate-elimination-concept.svg)
+- [Neural-network dimensions](docs/assets/neural-network-shapes.svg)
+- [Majority-baseline pipeline](docs/assets/majority-baseline-pipeline.svg)
+- [All Mermaid diagrams](docs/diagrams/README.md)
+- [Asset index and policy](docs/assets/README.md)
 
 ## 🗂️ Repository structure
 
@@ -75,7 +79,9 @@ cea/
 ├── requirements-dev.txt
 ├── pytest.ini
 ├── tests/
-│   └── test_demos.py
+│   ├── test_demos.py
+│   ├── test_fixture_integrity.py
+│   └── test_numerical_characterization.py
 ├── docs/
 │   ├── algorithms/
 │   ├── api/
@@ -104,7 +110,7 @@ cea/
 
 ## 🧪 Quality and verification
 
-The repository now has pytest-based characterization tests and GitHub Actions for compilation/tests. These checks cover selected behavior only. They do not prove full Candidate Elimination correctness, a complete backpropagation derivation, or an ID3 tree implementation.
+The repository has pytest-based characterization tests and GitHub Actions for compilation/tests. These checks cover selected behavior only. They do not prove full Candidate Elimination correctness, a complete backpropagation derivation, or an ID3 tree implementation.
 
 ```bash
 python -m pip install -r requirements-dev.txt
@@ -138,7 +144,6 @@ These demos are not secure multi-user production services. Report vulnerabilitie
 - [Testing strategy](docs/testing/TESTING_STRATEGY.md)
 - [Threat model](docs/security/THREAT_MODEL.md)
 - [Reusable templates](docs/templates/README.md)
-- [SVG assets](docs/assets/README.md)
 - [Optional Jupyter notebook](notebooks/README.md)
 
 ## 📄 License
