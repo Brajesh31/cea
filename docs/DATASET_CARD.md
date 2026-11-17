@@ -1,19 +1,19 @@
 # 🗃️ Dataset Card
 
-## Current datasets
-There is no checked-in real-world dataset used by the apps.
+## Current data sources
+No checked-in real-world dataset is used by these apps.
 
-### CEA example rows
-The CEA page includes inline, user-editable weather-style examples. The current parser expects comma-space-separated fields. These are illustrative examples, not a sourced or representative dataset.
+### CEA examples
+Inline, user-editable weather-style examples. Illustrative only, not sourced or representative. The parser expects comma-space-separated fields.
 
 ### Backpropagation values
-The page includes small example numeric rows in a text area. They are parsed and displayed, not used as a training dataset by the current training function.
+Small numeric rows in a text area. They are parsed and displayed, not used as the current training dataset.
 
 ### Majority-baseline generator
-id3.py generates 100 rows, four normally distributed numeric features and a three-class integer target using NumPy's fixed seed.
+id3.py generates 100 rows, four normally distributed features and a three-class integer target using a fixed NumPy seed.
 
-## Data limitations
-The target is sampled independently of features in the synthetic generator. No real-world signal or population is represented. The baseline predicts a constant class.
+## Limitations
+The synthetic target is sampled independently from features. It represents no real-world signal or population. The baseline predicts a constant class.
 
-## Use restrictions
-Do not add personal, confidential or regulated data. Any future dataset must document provenance, license, collection purpose, schema, sensitive fields, consent/authorization, retention and known bias.
+## Restrictions
+Do not add personal/confidential/regulated data. Future datasets must document provenance, license, purpose, schema, authorization, retention and known bias.

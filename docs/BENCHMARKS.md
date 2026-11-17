@@ -1,17 +1,16 @@
 # ⏱️ Benchmarks and Performance
 
-## Current benchmark status
-No formal performance benchmark suite or service-level objective exists. The applications are small educational examples and should not be described as production inference services.
+## Current status
+No formal benchmark suite or service-level objective exists. These are small educational examples, not production inference services.
 
 ## Appropriate measurements
 - Script startup time.
-- Time to generate the 100-row synthetic frame.
-- Time for the small hypothesis update as example count grows.
-- Time for a single 2×2 forward/update operation.
-- Browser responsiveness for each Streamlit page.
+- Synthetic table generation time.
+- Hypothesis update time as example count grows.
+- Single 2×2 forward/update time.
+- Browser responsiveness for each page.
 
 ## Benchmark discipline
-Record hardware, operating system, Python/package versions, input size, warm-up count, repetitions and statistical summary. Separate UI latency from pure function execution. Do not compare results from different environments without qualification.
+Record hardware, OS, Python/package versions, input size, warm-up, repetitions and summary statistics. Separate UI latency from pure function execution. Do not compare across environments without qualification.
 
-## Safety
-Avoid large uncontrolled inputs in shared hosted apps. Set input size bounds before benchmarking public deployments.
+Avoid large uncontrolled public inputs. Add row bounds before exposing a hosted app broadly.

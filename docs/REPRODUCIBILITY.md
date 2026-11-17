@@ -1,22 +1,14 @@
 # ♻️ Reproducibility Guide
 
 ## Current state
-- id3.py sets a fixed NumPy random seed before generating synthetic data.
+- id3.py uses a fixed NumPy random seed.
 - bpalgo.py initializes weights using unseeded random values.
-- CEA.py output depends on user-entered rows and their order.
+- CEA.py output depends on entered rows and their order.
 - requirements.txt lists direct dependencies without version pins.
-- No lock file or verified Python compatibility matrix is currently supplied.
+- No lock file or verified Python compatibility matrix is supplied.
 
 ## Reproduction record
-For every experiment, record:
-1. Git commit SHA.
-2. Python version and operating system.
-3. Streamlit, NumPy and pandas versions.
-4. Random seed and generator behavior.
-5. Exact synthetic input or generation method.
-6. Command used to start the selected app.
-7. Expected and observed output.
-8. Whether any score is training, validation or test.
+Record Git commit, Python/OS, package versions, random seed, synthetic inputs, command, expected/observed output, and whether metrics are training/validation/test.
 
-## Future improvements
-Prefer explicit random generator objects passed into pure functions. Pin a tested environment when maintainers have selected the supported Python version. Keep generated data synthetic and version-controlled only when small and legally safe.
+## Improvements
+Prefer explicit random generator objects passed into pure functions. Pin a tested environment once maintainers choose a supported Python version. Keep datasets synthetic.
